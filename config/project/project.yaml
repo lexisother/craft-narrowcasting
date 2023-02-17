@@ -1,0 +1,42 @@
+dateModified: 1676632717
+email:
+  fromEmail: alyxia@riseup.net
+  fromName: craft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  blog:
+    hasUrls: true
+    name: Blog
+    settings:
+      path: '@webroot/assets/blog'
+    type: craft\fs\Local
+    url: '@web/assets/blog'
+meta:
+  __names__:
+    0ceb5003-324b-47f9-b336-5716ff21c825: Text # Text
+    2fe47f5e-f465-4d4b-bafc-db94fcd20d62: 'Narrowcasting Slides' # Narrowcasting Slides
+    3ed0cc78-6b93-46f3-868e-46554089d28f: Blog # Blog
+    4e315b8e-e012-4f17-818b-a5b0c6189d80: Default # Default
+    9bed703c-0031-4c03-a49d-1ca4cc0fa5a2: craft # craft
+    9c11c497-5e71-4c81-afd3-317c35414085: Narrowcasting # Narrowcasting
+    9d29337f-6b3e-47b2-8ff0-aaf4151cda6d: Common # Common
+    59e177d9-17ab-4c27-8528-0f817fae7c25: craft # craft
+    d5eac6f2-f301-4348-b212-c25460e2b3d9: text # text
+    d33c5983-4dff-4b6a-9aaa-7128c8c7c889: Slides # Slides
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: craft
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

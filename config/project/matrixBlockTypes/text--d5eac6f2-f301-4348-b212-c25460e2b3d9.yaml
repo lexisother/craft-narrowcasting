@@ -1,0 +1,46 @@
+field: 2fe47f5e-f465-4d4b-bafc-db94fcd20d62 # Narrowcasting Slides
+fieldLayouts:
+  8799252d-cba1-4d22-9a19-aaa5857df6b1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0ceb5003-324b-47f9-b336-5716ff21c825 # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31aaa4e0-fcf9-46d7-8a88-1f5a64b60ccd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c1d68812-8393-416d-8cd8-6d14a80dcc7d
+        userCondition: null
+fields:
+  0ceb5003-324b-47f9-b336-5716ff21c825: # Text
+    columnSuffix: nlujdhmf
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: text
+name: text
+sortOrder: 1

@@ -1,0 +1,55 @@
+fieldLayouts:
+  d159507e-00ee-4186-89ce-aa8d13c0f551:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f3b2ba6d-b575-4f39-b525-17d300b870b9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2fe47f5e-f465-4d4b-bafc-db94fcd20d62 # Narrowcasting Slides
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ef0f778b-85df-48a3-884b-c7a0a32e3d23
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c25aac81-6e27-41ae-a7ca-c390a8be1619
+        userCondition: null
+handle: slides
+hasTitleField: true
+name: Slides
+section: 9c11c497-5e71-4c81-afd3-317c35414085 # Narrowcasting
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

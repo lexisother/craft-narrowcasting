@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 9d29337f-6b3e-47b2-8ff0-aaf4151cda6d # Common
+handle: narrowcastingSlides
+instructions: null
+name: 'Narrowcasting Slides'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_narrowcastingslides}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
