@@ -1,0 +1,92 @@
+field: 2fe47f5e-f465-4d4b-bafc-db94fcd20d62 # Narrowcasting Slides
+fieldLayouts:
+  a99dcfd0-e437-4f43-b3ef-3242bbcc8338:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ee5459e3-ec14-4342-9e3a-fc007e6a5238 # Media
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 746ecfa6-abeb-4506-8c73-765c5537f001
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a97509a6-f1c1-49e8-b31b-af26952b62e9
+        userCondition: null
+fields:
+  ee5459e3-ec14-4342-9e3a-fc007e6a5238: # Media
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: media
+    instructions: null
+    name: Media
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:3ed0cc78-6b93-46f3-868e-46554089d28f' # Narrowcasting
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:3ed0cc78-6b93-46f3-868e-46554089d28f' # Narrowcasting
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+          -
+            - conditionRules
+            -
+              -
+                __assoc__:
+                  -
+                    - class
+                    - craft\elements\conditions\assets\FileTypeConditionRule
+                  -
+                    - uid
+                    - 9ed4a011-9832-4d4f-8d25-98368742d7b0
+                  -
+                    - operator
+                    - in
+                  -
+                    - values
+                    -
+                      - image
+                      - video
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: media
+name: media
+sortOrder: 2
