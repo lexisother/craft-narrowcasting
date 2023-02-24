@@ -33,9 +33,9 @@ fieldLayouts:
         name: Content
         uid: 45efbd87-93d5-42cf-8e3a-4ad101f90169
         userCondition: null
-fs: blog
-handle: blog
-name: Blog
+fs: narrowcasting
+handle: narrowcasting
+name: Narrowcasting
 sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
