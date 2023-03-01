@@ -1,7 +1,8 @@
-dateModified: 1677674562
+dateModified: 1677678320
 elementSources:
   craft\elements\Asset:
-    - defaultSort:
+    -
+      defaultSort:
         - dateCreated
         - desc
       disabled: false
@@ -12,7 +13,8 @@ elementSources:
         - dateModified
         - link
       type: native
-    - defaultSort:
+    -
+      defaultSort:
         - dateCreated
         - desc
       disabled: false
@@ -45,8 +47,9 @@ meta:
     9c11c497-5e71-4c81-afd3-317c35414085: Narrowcasting # Narrowcasting
     9d29337f-6b3e-47b2-8ff0-aaf4151cda6d: Common # Common
     59e177d9-17ab-4c27-8528-0f817fae7c25: craft # craft
+    2928f6e5-130a-431d-a1f3-df296cd1f46a: 'Text Colour' # Text Colour
     928623f8-903d-4bb2-bb3e-c2b71c6d8b1d: media # media
-    a7316bd8-0e45-41fb-bad7-6e74a6f2a902: 'Background Color' # Background Color
+    a7316bd8-0e45-41fb-bad7-6e74a6f2a902: 'Background Colour' # Background Colour
     d5eac6f2-f301-4348-b212-c25460e2b3d9: text # text
     d33c5983-4dff-4b6a-9aaa-7128c8c7c889: Slides # Slides
     ee5459e3-ec14-4342-9e3a-fc007e6a5238: Media # Media
