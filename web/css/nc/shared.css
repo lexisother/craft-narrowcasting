@@ -1,0 +1,33 @@
+html,
+body,
+swiper-container,
+swiper-slide,
+.swiper,
+.swiper-wrapper,
+.swiper-container,
+.swiper-slide,
+slot,
+.slide {
+  margin: 0;
+  height: 100%;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer-vert {
+  flex-grow: 1;
+  background-color: blue;
+}
+
+.spacer-hor {
+  flex-grow: 1;
+  background-color: red;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+}
