@@ -3,11 +3,12 @@
 		"format": "prettier --write web/**/*.{css,js} templates/**/*.twig"
 	},
 	"devDependencies": {
+		"eslint": "^8.35.0",
 		"eslint-config-dmitmel": "github:dmitmel/eslint-config-dmitmel",
 		"prettier": "^2.8.4",
 		"prettier-plugin-twig-melody": "^0.4.6"
 	},
 	"dependencies": {
-		"eslint": "^8.35.0"
+		"swiper": "^9.1.0"
 	}
 }
