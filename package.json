@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"format": "prettier --write web/**/*.{css,js} templates/**/*.twig"
+	},
+	"devDependencies": {
+		"eslint-config-dmitmel": "github:dmitmel/eslint-config-dmitmel",
+		"prettier": "^2.8.4",
+		"prettier-plugin-twig-melody": "^0.4.6"
+	}
+}

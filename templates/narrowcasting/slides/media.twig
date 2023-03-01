@@ -1,1 +1,14 @@
 {{ slide.media }}
+
+<br />
+<br />
+<br />
+{% for item in slide.media.all() %}
+    {{ item.kind }}
+    {% if item.kind == "image" %}
+        <img src="{{ item.url }}" alt="{{ item.title }}" />
+    {% endif %}
+    {% if item.kind == "video" %}
+        <video src="{{ item.url }}"></video>
+    {% endif %}
+{% endfor %}
