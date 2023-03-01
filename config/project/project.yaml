@@ -1,4 +1,4 @@
-dateModified: 1677234831
+dateModified: 1677671870
 elementSources:
   craft\elements\Asset:
     -
@@ -57,7 +57,7 @@ plugins:
     enabled: true
     schemaVersion: 2.3.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: craft
   schemaVersion: 4.0.0.9
