@@ -5,16 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ entry.title }}</title>
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js" />
+
     {% block styles %}
     <link rel="stylesheet" href="/css/nc/shared.css" />
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     {% endblock %}
 
     {% block scripts %}
     {% endblock %}
 </head>
 <body>
-    {% for slide in entry.narrowcastingSlides %}
-        {% include("narrowcasting/slides/" ~ slide.type ~ ".twig") %}
-    {% endfor %}
+    <div class="swiper">
+        <div class="swiper-wrapper">
+        {% for slide in entry.narrowcastingSlides %}
+            <div class="swiper-slide">
+                {% include("narrowcasting/slides/" ~ slide.type ~ ".twig") %}
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+
+    <script type="module" src="/js/nc/index.js"></script>
 </body>
 </html>
