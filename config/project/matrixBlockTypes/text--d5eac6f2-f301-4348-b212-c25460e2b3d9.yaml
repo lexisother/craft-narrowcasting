@@ -17,6 +17,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: a7316bd8-0e45-41fb-bad7-6e74a6f2a902 # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 375fcf49-f25e-4b97-97ca-38d23bb1ed5a
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: c1d68812-8393-416d-8cd8-6d14a80dcc7d
         userCondition: null
@@ -41,6 +53,19 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  a7316bd8-0e45-41fb-bad7-6e74a6f2a902: # Background Color
+    columnSuffix: wrwllbxa
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: backgroundColor
+    instructions: null
+    name: 'Background Color'
+    searchable: false
+    settings:
+      defaultColor: '#ffffff'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
 handle: text
 name: text
 sortOrder: 1
