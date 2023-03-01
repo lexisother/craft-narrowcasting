@@ -1,0 +1,4 @@
+extends: eslint-config-dmitmel/presets/browser
+
+parserOptions:
+  sourceType: module
