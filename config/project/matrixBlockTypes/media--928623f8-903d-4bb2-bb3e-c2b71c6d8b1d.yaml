@@ -88,5 +88,5 @@ fields:
     translationMethod: site
     type: craft\fields\Assets
 handle: media
-name: media
+name: 'Media slide'
 sortOrder: 2

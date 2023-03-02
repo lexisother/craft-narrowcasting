@@ -92,5 +92,5 @@ fields:
     translationMethod: none
     type: craft\fields\Color
 handle: text
-name: text
+name: 'Text slide'
 sortOrder: 1

@@ -1,0 +1,155 @@
+field: 2fe47f5e-f465-4d4b-bafc-db94fcd20d62 # Narrowcasting Slides
+fieldLayouts:
+  a89b9c73-7077-4bce-bbe6-86a9fb3c27b5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ce2c8583-c7bf-4d08-b9a0-cf6557c1d401 # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5d80b760-b308-4735-b3ae-a654aba3aa36
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9eb78600-e611-43fc-9c72-f7ee4d188cee # Media
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6e5de58d-c553-402a-8e60-a74642a9dfa8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 793d26f5-7e0c-4d7d-9aca-51ac93b5b7e0 # Background Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 990b24e3-1b70-41c6-acbc-09e00dcc4dfb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a27b6d9b-05b5-46d6-aa08-6094d75094f2 # Text Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1d964b7f-09b0-4b5b-b458-512db536397c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 29e65fe4-8cf0-4416-860d-04226248aedb
+        userCondition: null
+fields:
+  9eb78600-e611-43fc-9c72-f7ee4d188cee: # Media
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: media
+    instructions: null
+    name: Media
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:3ed0cc78-6b93-46f3-868e-46554089d28f' # Narrowcasting
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:3ed0cc78-6b93-46f3-868e-46554089d28f' # Narrowcasting
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  793d26f5-7e0c-4d7d-9aca-51ac93b5b7e0: # Background Colour
+    columnSuffix: jsllqrnf
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: backgroundColour
+    instructions: null
+    name: 'Background Colour'
+    searchable: false
+    settings:
+      defaultColor: '#ffffff'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+  a27b6d9b-05b5-46d6-aa08-6094d75094f2: # Text Colour
+    columnSuffix: onvjezyq
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: textColour
+    instructions: null
+    name: 'Text Colour'
+    searchable: false
+    settings:
+      defaultColor: '#000000'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+  ce2c8583-c7bf-4d08-b9a0-cf6557c1d401: # Text
+    columnSuffix: btsjqgtw
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: textMedia
+name: 'Text & Media slide'
+sortOrder: 3

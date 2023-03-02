@@ -1,4 +1,4 @@
-dateModified: 1677678320
+dateModified: 1677750502
 elementSources:
   craft\elements\Asset:
     -
@@ -46,11 +46,16 @@ meta:
     9bed703c-0031-4c03-a49d-1ca4cc0fa5a2: craft # craft
     9c11c497-5e71-4c81-afd3-317c35414085: Narrowcasting # Narrowcasting
     9d29337f-6b3e-47b2-8ff0-aaf4151cda6d: Common # Common
+    9eb78600-e611-43fc-9c72-f7ee4d188cee: Media # Media
     59e177d9-17ab-4c27-8528-0f817fae7c25: craft # craft
+    793d26f5-7e0c-4d7d-9aca-51ac93b5b7e0: 'Background Colour' # Background Colour
     2928f6e5-130a-431d-a1f3-df296cd1f46a: 'Text Colour' # Text Colour
-    928623f8-903d-4bb2-bb3e-c2b71c6d8b1d: media # media
+    34848ad2-3bb8-49fa-8f0a-bb4f69d4881d: 'Text & Media slide' # Text & Media slide
+    928623f8-903d-4bb2-bb3e-c2b71c6d8b1d: 'Media slide' # Media slide
+    a27b6d9b-05b5-46d6-aa08-6094d75094f2: 'Text Colour' # Text Colour
     a7316bd8-0e45-41fb-bad7-6e74a6f2a902: 'Background Colour' # Background Colour
-    d5eac6f2-f301-4348-b212-c25460e2b3d9: text # text
+    ce2c8583-c7bf-4d08-b9a0-cf6557c1d401: Text # Text
+    d5eac6f2-f301-4348-b212-c25460e2b3d9: 'Text slide' # Text slide
     d33c5983-4dff-4b6a-9aaa-7128c8c7c889: Slides # Slides
     ee5459e3-ec14-4342-9e3a-fc007e6a5238: Media # Media
 plugins:
