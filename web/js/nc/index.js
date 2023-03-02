@@ -20,7 +20,8 @@ let ArrowRight = () => swiper.slideNext();
 const handler = { ArrowLeft, ArrowRight };
 document.addEventListener('keydown', (e) => {
   const k = e.key;
-  if (handler.hasOwnProperty(k)) {
+  // This notation stops ESLint from complaining about `no-prototype-builtins`.
+  if (Object.prototype.hasOwnProperty.call(handler, k)) {
     handler[k](k);
   }
 });
