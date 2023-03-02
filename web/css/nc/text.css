@@ -1,9 +1,9 @@
 .inner {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .text-content {
   font-size: 5vw;
-  padding-right: 1rem;
 }

@@ -1,0 +1,6 @@
+.media {
+  flex: 30 0 auto;
+  height: 35vw;
+  background-position: center;
+  background-size: cover;
+}
