@@ -2,10 +2,8 @@
 	<div class="spacer-vert"></div>
 	<div class="inner">
 		{% for item in slide.media.all() %}
-			{# {{ item.kind }} #}
 			{% if item.kind == "image" %}
 				<div class="media" style="background-image: url({{ item.url }});"></div>
-				{# <img src="{{ item.url }}" alt="{{ item.title }}" /> #}
 			{% endif %}
 			{% if item.kind == "video" %}
 				<video class="media" src="{{ item.url }}"></video>

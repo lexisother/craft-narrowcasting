@@ -1,0 +1,30 @@
+{
+  "name": "brikdigital/craft-narrowcasting",
+  "description": "Yep.",
+  "type": "craft-plugin",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "brik.digital",
+      "homepage": "https://brik.digital"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "4.3.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Narrowcasting\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Narrowcasting",
+    "handle": "craft-narrowcasting"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}

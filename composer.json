@@ -1,5 +1,14 @@
 {
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./craft-narrowcasting"
+    }
+  ],
   "require": {
+    "brikdigital/craft-narrowcasting": "dev-master",
     "craftcms/cms": "4.3.10",
     "craftcms/redactor": "^3.0",
     "vlucas/phpdotenv": "^5.4.0"
