@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "./craft-narrowcasting",
-                "reference": "5639f1f2822ddd80228c175e0cc4e6ad7dd2dc08"
+                "reference": "c4a867e6aa3e01c650d1ce73cea169cde0ba04c6"
             },
             "require": {
                 "craftcms/cms": "4.3.10"
@@ -20,11 +20,12 @@
             "type": "craft-plugin",
             "extra": {
                 "name": "Narrowcasting",
-                "handle": "craft-narrowcasting"
+                "handle": "narrowcasting",
+                "class": "brikdigital\\narrowcasting\\Narrowcasting"
             },
             "autoload": {
                 "psr-4": {
-                    "Narrowcasting\\": "src/"
+                    "brikdigital\\narrowcasting\\": "src/"
                 }
             },
             "license": [

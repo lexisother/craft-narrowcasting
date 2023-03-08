@@ -1,4 +1,4 @@
-dateModified: 1678277476
+dateModified: 1678278832
 elementSources:
   craft\elements\Asset:
     -
@@ -59,7 +59,7 @@ meta:
     d33c5983-4dff-4b6a-9aaa-7128c8c7c889: Slides # Slides
     ee5459e3-ec14-4342-9e3a-fc007e6a5238: Media # Media
 plugins:
-  craft-narrowcasting:
+  narrowcasting:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0

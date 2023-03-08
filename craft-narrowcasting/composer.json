@@ -14,12 +14,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Narrowcasting\\": "src/"
+      "brikdigital\\narrowcasting\\": "src/"
     }
   },
   "extra": {
     "name": "Narrowcasting",
-    "handle": "craft-narrowcasting"
+    "handle": "narrowcasting",
+    "class": "brikdigital\\narrowcasting\\Narrowcasting"
   },
   "config": {
     "allow-plugins": {
