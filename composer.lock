@@ -4,23 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "998be0bce34d92ee860c768e77a24d72",
+    "content-hash": "0071a9e79f6e321287b11849e6f75224",
     "packages": [
         {
             "name": "brikdigital/craft-narrowcasting",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./craft-narrowcasting",
-                "reference": "c4a867e6aa3e01c650d1ce73cea169cde0ba04c6"
+                "url": "plugins/narrowcasting",
+                "reference": "5a76925e4fce2e9c1845c4580e64abbaabcf52eb"
             },
             "require": {
-                "craftcms/cms": "4.3.10"
+                "craftcms/cms": "^4.3.10",
+                "php": ">=8.0.2"
+            },
+            "require-dev": {
+                "craftcms/ecs": "dev-main",
+                "craftcms/phpstan": "dev-main"
             },
             "type": "craft-plugin",
             "extra": {
-                "name": "Narrowcasting",
                 "handle": "narrowcasting",
+                "name": "craft-narrowcasting",
+                "developer": "Alyxia Sother",
+                "documentationUrl": "",
                 "class": "brikdigital\\narrowcasting\\Narrowcasting"
             },
             "autoload": {
@@ -28,16 +35,24 @@
                     "brikdigital\\narrowcasting\\": "src/"
                 }
             },
+            "scripts": {
+                "check-cs": [
+                    "ecs check --ansi"
+                ],
+                "fix-cs": [
+                    "ecs check --ansi --fix"
+                ],
+                "phpstan": [
+                    "phpstan --memory-limit=1G"
+                ]
+            },
             "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "brik.digital",
-                    "homepage": "https://brik.digital"
-                }
+                "mit"
             ],
             "description": "Yep.",
+            "support": {
+                "email": "alyxia@riseup.net"
+            },
             "transport-options": {
                 "relative": true
             }
@@ -5359,7 +5374,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "brikdigital/craft-narrowcasting": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

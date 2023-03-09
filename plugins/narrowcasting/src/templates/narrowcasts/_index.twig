@@ -1,0 +1,10 @@
+{% extends '_layouts/elementindex' %}
+{% set title = 'Narrowcasts'|t('app') %}
+{% set elementType = 'brikdigital\\narrowcasting\\elements\\Narrowcast' %}
+{% set canHaveDrafts = true %}
+
+{% block actionButton %}
+  {% if currentUser.can('registerUsers') %}
+    <a class="btn submit add icon" href="{{ url('narrowcasting/new') }}">{{ "New narrowcast"|t('app') }}</a>
+  {% endif %}
+{% endblock %}
