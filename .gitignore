@@ -22,6 +22,7 @@ scripts
 # BUILD FILES
 /bower_components/*
 /node_modules/*
+/.pnpm-store/*
 /public_html/cpresources/*
 /public_html/uploads/*
 /public_html/imager/*
