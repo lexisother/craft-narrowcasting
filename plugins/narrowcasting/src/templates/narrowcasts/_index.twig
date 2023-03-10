@@ -4,7 +4,7 @@
 {% set canHaveDrafts = true %}
 
 {% block actionButton %}
-  {% if currentUser.can('registerUsers') %}
+  {% if currentUser.can('createCasts') %}
     <a class="btn submit add icon" href="{{ url('narrowcasting/new') }}">{{ "New narrowcast"|t('app') }}</a>
   {% endif %}
 {% endblock %}

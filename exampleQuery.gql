@@ -1,0 +1,15 @@
+query MyQuery {
+  narrowcastingEntries {
+    ... on narrowcasting_slides_Entry {
+      id
+      url
+      narrowcastingSlides {
+        ... on narrowcastingSlides_text_BlockType {
+          id
+          text
+          textColour
+        }
+      }
+    }
+  }
+}

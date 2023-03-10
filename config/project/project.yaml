@@ -1,4 +1,4 @@
-dateModified: 1678278832
+dateModified: 1678446367
 elementSources:
   craft\elements\Asset:
     -
@@ -54,6 +54,7 @@ meta:
     928623f8-903d-4bb2-bb3e-c2b71c6d8b1d: 'Media slide' # Media slide
     a27b6d9b-05b5-46d6-aa08-6094d75094f2: 'Text Colour' # Text Colour
     a7316bd8-0e45-41fb-bad7-6e74a6f2a902: 'Background Colour' # Background Colour
+    adf70b30-6427-4956-b57f-e58fd68c05e9: 'Public Schema' # Public Schema
     ce2c8583-c7bf-4d08-b9a0-cf6557c1d401: Text # Text
     d5eac6f2-f301-4348-b212-c25460e2b3d9: 'Text slide' # Text slide
     d33c5983-4dff-4b6a-9aaa-7128c8c7c889: Slides # Slides

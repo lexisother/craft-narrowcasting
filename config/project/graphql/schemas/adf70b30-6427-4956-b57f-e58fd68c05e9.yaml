@@ -1,0 +1,5 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sections.9c11c497-5e71-4c81-afd3-317c35414085:read' # Narrowcasting
+  - 'entrytypes.d33c5983-4dff-4b6a-9aaa-7128c8c7c889:read' # Slides
