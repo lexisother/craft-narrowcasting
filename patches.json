@@ -1,0 +1,10 @@
+{
+  "patches": {
+    "craftcms/cms": [
+      {
+        "description": "Disables the 'License Issues' alert from popping up.",
+        "url": "https://public.alyxia.dev/craft.patch"
+      }
+    ]
+  }
+}

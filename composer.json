@@ -5,6 +5,10 @@
     {
       "type": "path",
       "url": "plugins/narrowcasting"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/cweagans/composer-patches.git"
     }
   ],
   "require": {
@@ -15,6 +19,7 @@
   },
   "require-dev": {
     "craftcms/generator": "^1.0.0",
+    "cweagans/composer-patches": "dev-main#3da501d7dd9732b3bc32d1e88b6e330222277190",
     "yiisoft/yii2-shell": "^2.0.3"
   },
   "autoload": {
@@ -25,10 +30,13 @@
   "config": {
     "allow-plugins": {
       "craftcms/plugin-installer": true,
-      "yiisoft/yii2-composer": true
+      "yiisoft/yii2-composer": true,
+      "cweagans/composer-patches": true
     },
     "sort-packages": true,
     "optimize-autoloader": true,
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "platform": {
       "php": "8.0.2"
     }
