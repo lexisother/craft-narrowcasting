@@ -1,4 +1,4 @@
-dateModified: 1683278029
+dateModified: 1683281512
 elementSources:
   craft\elements\Asset:
     -
@@ -43,11 +43,11 @@ meta:
     2fe47f5e-f465-4d4b-bafc-db94fcd20d62: 'Narrowcasting Slides' # Narrowcasting Slides
     3ed0cc78-6b93-46f3-868e-46554089d28f: Narrowcasting # Narrowcasting
     4e315b8e-e012-4f17-818b-a5b0c6189d80: Default # Default
-    9bed703c-0031-4c03-a49d-1ca4cc0fa5a2: craft # craft
+    9bed703c-0031-4c03-a49d-1ca4cc0fa5a2: narrowcasting # narrowcasting
     9c11c497-5e71-4c81-afd3-317c35414085: Narrowcasting # Narrowcasting
     9d29337f-6b3e-47b2-8ff0-aaf4151cda6d: Common # Common
     9eb78600-e611-43fc-9c72-f7ee4d188cee: Media # Media
-    59e177d9-17ab-4c27-8528-0f817fae7c25: craft # craft
+    59e177d9-17ab-4c27-8528-0f817fae7c25: narrowcasting # narrowcasting
     793d26f5-7e0c-4d7d-9aca-51ac93b5b7e0: 'Background Colour' # Background Colour
     2928f6e5-130a-431d-a1f3-df296cd1f46a: 'Text Colour' # Text Colour
     34848ad2-3bb8-49fa-8f0a-bb4f69d4881d: 'Text & Media slide' # Text & Media slide
@@ -71,9 +71,10 @@ plugins:
 system:
   edition: pro
   live: true
-  name: craft
+  name: Narrowcasting
+  retryDuration: null
   schemaVersion: 4.4.0.4
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Amsterdam
 users:
   allowPublicRegistration: false
   defaultGroup: null

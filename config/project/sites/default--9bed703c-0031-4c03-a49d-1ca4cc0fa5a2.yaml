@@ -3,7 +3,7 @@ enabled: true
 handle: default
 hasUrls: true
 language: en-US
-name: craft
+name: narrowcasting
 primary: true
-siteGroup: 59e177d9-17ab-4c27-8528-0f817fae7c25 # craft
+siteGroup: 59e177d9-17ab-4c27-8528-0f817fae7c25 # narrowcasting
 sortOrder: 1

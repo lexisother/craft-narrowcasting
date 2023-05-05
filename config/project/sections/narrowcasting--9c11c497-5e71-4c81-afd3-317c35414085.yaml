@@ -4,7 +4,7 @@ handle: narrowcasting
 name: Narrowcasting
 propagationMethod: all
 siteSettings:
-  9bed703c-0031-4c03-a49d-1ca4cc0fa5a2: # craft
+  9bed703c-0031-4c03-a49d-1ca4cc0fa5a2: # narrowcasting
     enabledByDefault: true
     hasUrls: true
     template: narrowcasting/_entry
