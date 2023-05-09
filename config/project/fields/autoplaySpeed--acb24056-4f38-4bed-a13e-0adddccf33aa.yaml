@@ -1,0 +1,20 @@
+columnSuffix: aibxcdss
+contentColumnType: integer(10)
+fieldGroup: 9d29337f-6b3e-47b2-8ff0-aaf4151cda6d # Common
+handle: autoplaySpeed
+instructions: "Global speed at which the autoplay should progress. Denoted as seconds per slide.\r\nIf left blank, 5 by default."
+name: 'Autoplay speed'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 5
+  max: null
+  min: 1
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: '(e.g. <code>5</code> for 5 seconds)'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

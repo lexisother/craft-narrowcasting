@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: bb457270-2eb0-4428-8f92-0f0025dfec80 # Narrowcasting
 handle: narrowcastingSlides
-instructions: null
+instructions: 'The slides that are shown in the cast.'
 name: 'Narrowcasting Slides'
 searchable: false
 settings:

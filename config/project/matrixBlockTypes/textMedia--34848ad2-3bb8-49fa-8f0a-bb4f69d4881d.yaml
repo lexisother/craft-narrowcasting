@@ -53,6 +53,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 54a40a73-958d-4bce-9a57-d32a0ff0488f # Autoplay speed
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0f67347c-8da1-440d-9ab5-434e8b0bdf7d
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 29e65fe4-8cf0-4416-860d-04226248aedb
         userCondition: null
@@ -105,6 +117,27 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
+  54a40a73-958d-4bce-9a57-d32a0ff0488f: # Autoplay speed
+    columnSuffix: hboqydrv
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: autoplaySpeed
+    instructions: 'Amount of time the slide should be visible for.'
+    name: 'Autoplay speed'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: 5
+      max: null
+      min: 1
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: '(e.g. <code>5</code> for 5 seconds)'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
   793d26f5-7e0c-4d7d-9aca-51ac93b5b7e0: # Background Colour
     columnSuffix: jsllqrnf
     contentColumnType: string(7)

@@ -43,6 +43,27 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 13ae5af0-a73b-4f42-b8de-035d0bb19544 # Autoplay
+                  uid: d5a8ca6c-e1f6-47e3-bb00-d014a9e9fe9c
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: acb24056-4f38-4bed-a13e-0adddccf33aa # Autoplay speed
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f6ac5b35-736b-4cad-874a-c7c87846b0be
+            userCondition: null
+            warning: null
+            width: 100
+          -
             elementCondition: null
             fieldUid: 2fe47f5e-f465-4d4b-bafc-db94fcd20d62 # Narrowcasting Slides
             instructions: 'Cast slides.'
