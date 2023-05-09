@@ -122,7 +122,7 @@ fields:
     contentColumnType: integer(10)
     fieldGroup: null
     handle: autoplaySpeed
-    instructions: 'Amount of time the slide should be visible for.'
+    instructions: "Amount of time the slide should be visible for.\r\nNote that this overrides the global speed!"
     name: 'Autoplay speed'
     searchable: false
     settings:
