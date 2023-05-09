@@ -12,7 +12,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
-            instructions: null
+            instructions: 'Name of the cast.'
             label: null
             max: null
             min: null
@@ -32,10 +32,22 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 2fe47f5e-f465-4d4b-bafc-db94fcd20d62 # Narrowcasting Slides
+            fieldUid: 13ae5af0-a73b-4f42-b8de-035d0bb19544 # Autoplay
             instructions: null
             label: null
             required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3c1f087f-f219-45b1-a6b7-74c22ad88267
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2fe47f5e-f465-4d4b-bafc-db94fcd20d62 # Narrowcasting Slides
+            instructions: 'Cast slides.'
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: ef0f778b-85df-48a3-884b-c7a0a32e3d23
@@ -49,7 +61,7 @@ handle: slides
 hasTitleField: true
 name: Slides
 section: 9c11c497-5e71-4c81-afd3-317c35414085 # Narrowcasting
-sortOrder: 2
+sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

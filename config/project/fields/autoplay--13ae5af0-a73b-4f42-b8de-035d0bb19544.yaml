@@ -1,0 +1,14 @@
+columnSuffix: uuzxkhsz
+contentColumnType: boolean
+fieldGroup: bb457270-2eb0-4428-8f92-0f0025dfec80 # Narrowcasting
+handle: autoplay
+instructions: 'Must the cast automatically play?'
+name: Autoplay
+searchable: false
+settings:
+  default: false
+  offLabel: 'No'
+  onLabel: 'Yes'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
