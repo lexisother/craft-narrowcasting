@@ -1,12 +1,12 @@
 {
-    "_hash": "c6e2290d0510fd3f963c85fb0827ac37282c01fbd7c11a67cce1d0affc79c571",
+    "_hash": "817bfbd043b947398a2d8b8ed03d05bd8b04d3cd3d29a23937573ee6d5b947e3",
     "patches": {
         "craftcms/cms": [
             {
                 "package": "craftcms/cms",
                 "description": "Disables the 'License Issues' alert from popping up.",
                 "url": "https://public.alyxia.dev/craft.patch",
-                "sha256": "6b411790223abba68b651e9bb9c97d0c21ce5af98f068c7a20e8f20e1cdb0a46",
+                "sha256": "5072b13d064f996d22efa2f6a0823c5a77b23829366a77023ff6a8e39804d333",
                 "depth": 1,
                 "extra": []
             }
