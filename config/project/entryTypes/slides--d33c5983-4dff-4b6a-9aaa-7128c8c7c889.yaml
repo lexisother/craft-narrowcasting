@@ -78,6 +78,49 @@ fieldLayouts:
         name: Content
         uid: c25aac81-6e27-41ae-a7ca-c390a8be1619
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5bfdcf29-fa8a-4c67-a0bd-334fd6102686 # Transition
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c6c2b016-8c69-4e9a-af14-d3b30ff474e6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dismissible: false
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 5bfdcf29-fa8a-4c67-a0bd-334fd6102686 # Transition
+                  operator: ni
+                  uid: 7f0cf323-9b32-4407-b0eb-7d1362c3f2dc
+                  values:
+                    - slide
+                    - fade
+                    - coverflow
+                    - flip
+                    - cube
+                    - cards
+                    - creative
+              elementType: craft\elements\Entry
+              fieldContext: global
+            style: tip
+            tip: 'Transition settings will only show upon selecting a transition!'
+            type: craft\fieldlayoutelements\Tip
+            uid: a7f1c671-929c-4e7e-be68-26c4d9218ecc
+            userCondition: null
+        name: 'Transition settings'
+        uid: 4df68f9f-2466-479d-8429-71ff99a49510
+        userCondition: null
 handle: slides
 hasTitleField: true
 name: Slides

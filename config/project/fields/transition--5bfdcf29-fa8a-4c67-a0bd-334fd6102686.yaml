@@ -1,0 +1,89 @@
+columnSuffix: zljfvwro
+contentColumnType: string
+fieldGroup: bb457270-2eb0-4428-8f92-0f0025dfec80 # Narrowcasting
+handle: transition
+instructions: 'Which transition to show between slides.'
+name: Transition
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Slide
+        -
+          - value
+          - slide
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Fade
+        -
+          - value
+          - fade
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Coverflow
+        -
+          - value
+          - coverflow
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Flip
+        -
+          - value
+          - flip
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Cube
+        -
+          - value
+          - cube
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Cards
+        -
+          - value
+          - cards
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Creative
+        -
+          - value
+          - creative
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
