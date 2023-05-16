@@ -13,7 +13,7 @@
   ],
   "require": {
     "brikdigital/craft-narrowcasting": "dev-master",
-    "craftcms/cms": "4.4.10.1",
+    "craftcms/cms": "4.4.11",
     "craftcms/redactor": "3.0.4",
     "vlucas/phpdotenv": "^5.4.0"
   },
