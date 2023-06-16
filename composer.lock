@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8f89528b12a3d2dd468b3c5cd29b530",
+    "content-hash": "31d95ee5038c60e5d3fdc6118e7f37a8",
     "packages": [
         {
             "name": "brikdigital/craft-narrowcasting",
@@ -491,11 +491,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.4.13",
+            "version": "4.4.14",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/82629eef9b40a923471ae681ef8896865b3ee1bf",
-                "reference": "82629eef9b40a923471ae681ef8896865b3ee1bf",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/31c6d400ca40f72062e8e7a00d31e1bfd462597d",
+                "reference": "31c6d400ca40f72062e8e7a00d31e1bfd462597d",
                 "shasum": ""
             },
             "require": {
@@ -583,7 +583,7 @@
                 "docs": "https://craftcms.com/docs/4.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2023-05-24T17:58:00+00:00"
+            "time": "2023-06-13T23:08:33+00:00"
         },
         {
             "name": "craftcms/html-field",
