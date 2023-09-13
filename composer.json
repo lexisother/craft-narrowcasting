@@ -13,7 +13,7 @@
   ],
   "require": {
     "brikdigital/craft-narrowcasting": "dev-master",
-    "craftcms/cms": "4.4.14",
+    "craftcms/cms": "4.5.4",
     "craftcms/redactor": "3.0.4",
     "vlucas/phpdotenv": "^5.4.0"
   },
@@ -36,7 +36,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "minimum-stability": "dev",
-    "prefer-stable" : true,
+    "prefer-stable": true,
     "platform": {
       "php": "8.0.2"
     }
