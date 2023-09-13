@@ -1,4 +1,4 @@
-dateModified: 1683803785
+dateModified: 1694598787
 elementSources:
   craft\elements\Asset:
     -
@@ -62,11 +62,16 @@ meta:
     bb457270-2eb0-4428-8f92-0f0025dfec80: Narrowcasting # Narrowcasting
     ce2c8583-c7bf-4d08-b9a0-cf6557c1d401: Text # Text
     d5eac6f2-f301-4348-b212-c25460e2b3d9: 'Text slide' # Text slide
+    d8d1cbdf-a9da-42bc-9a8a-47e0d39cb254: 'Text alignment' # Text alignment
     d9d00064-7f3b-483f-97af-6b9c688ae73c: 'Autoplay speed' # Autoplay speed
     d33c5983-4dff-4b6a-9aaa-7128c8c7c889: Slides # Slides
     ee5459e3-ec14-4342-9e3a-fc007e6a5238: Media # Media
 plugins:
   narrowcasting:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  position-fieldtype:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
@@ -79,7 +84,7 @@ system:
   live: true
   name: Narrowcasting
   retryDuration: null
-  schemaVersion: 4.4.0.4
+  schemaVersion: 4.5.3.0
   timeZone: Europe/Amsterdam
 users:
   allowPublicRegistration: false

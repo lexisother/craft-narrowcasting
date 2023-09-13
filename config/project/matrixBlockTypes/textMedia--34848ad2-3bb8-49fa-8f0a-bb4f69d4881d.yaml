@@ -40,7 +40,7 @@ fieldLayouts:
             uid: 990b24e3-1b70-41c6-acbc-09e00dcc4dfb
             userCondition: null
             warning: null
-            width: 100
+            width: 25
           -
             elementCondition: null
             fieldUid: a27b6d9b-05b5-46d6-aa08-6094d75094f2 # Text Colour
@@ -52,7 +52,7 @@ fieldLayouts:
             uid: 1d964b7f-09b0-4b5b-b458-512db536397c
             userCondition: null
             warning: null
-            width: 100
+            width: 25
           -
             elementCondition: null
             fieldUid: 54a40a73-958d-4bce-9a57-d32a0ff0488f # Autoplay speed
@@ -140,7 +140,7 @@ fields:
     type: craft\fields\Number
   793d26f5-7e0c-4d7d-9aca-51ac93b5b7e0: # Background Colour
     columnSuffix: jsllqrnf
-    contentColumnType: string(7)
+    contentColumnType: char(7)
     fieldGroup: null
     handle: backgroundColour
     instructions: null
@@ -153,7 +153,7 @@ fields:
     type: craft\fields\Color
   a27b6d9b-05b5-46d6-aa08-6094d75094f2: # Text Colour
     columnSuffix: onvjezyq
-    contentColumnType: string(7)
+    contentColumnType: char(7)
     fieldGroup: null
     handle: textColour
     instructions: null

@@ -9,12 +9,18 @@
     {
       "type": "vcs",
       "url": "https://github.com/cweagans/composer-patches.git"
+    },
+    {
+      "type": "composer",
+      "url": "https://composer.craftcms.com",
+      "canonical": false
     }
   ],
   "require": {
     "brikdigital/craft-narrowcasting": "dev-master",
     "craftcms/cms": "4.5.4",
     "craftcms/redactor": "3.0.4",
+    "hybridinteractive/craft-position-fieldtype": "4.0.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

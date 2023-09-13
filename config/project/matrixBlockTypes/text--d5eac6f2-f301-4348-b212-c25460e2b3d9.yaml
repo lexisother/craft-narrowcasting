@@ -19,6 +19,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: d8d1cbdf-a9da-42bc-9a8a-47e0d39cb254 # Text alignment
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52a05263-f22b-4440-a938-5db33215ad46
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: a7316bd8-0e45-41fb-bad7-6e74a6f2a902 # Background Colour
             instructions: null
             label: null
@@ -28,7 +40,7 @@ fieldLayouts:
             uid: 375fcf49-f25e-4b97-97ca-38d23bb1ed5a
             userCondition: null
             warning: null
-            width: 100
+            width: 25
           -
             elementCondition: null
             fieldUid: 2928f6e5-130a-431d-a1f3-df296cd1f46a # Text Colour
@@ -40,7 +52,7 @@ fieldLayouts:
             uid: 2a098051-16ec-4052-a9f8-ce674e172a7b
             userCondition: null
             warning: null
-            width: 100
+            width: 25
           -
             elementCondition: null
             fieldUid: d9d00064-7f3b-483f-97af-6b9c688ae73c # Autoplay speed
@@ -79,7 +91,7 @@ fields:
     type: craft\fields\PlainText
   2928f6e5-130a-431d-a1f3-df296cd1f46a: # Text Colour
     columnSuffix: tiyqvwsy
-    contentColumnType: string(7)
+    contentColumnType: char(7)
     fieldGroup: null
     handle: textColour
     instructions: null
@@ -92,7 +104,7 @@ fields:
     type: craft\fields\Color
   a7316bd8-0e45-41fb-bad7-6e74a6f2a902: # Background Colour
     columnSuffix: wrwllbxa
-    contentColumnType: string(7)
+    contentColumnType: char(7)
     fieldGroup: null
     handle: backgroundColour
     instructions: null
@@ -103,6 +115,39 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Color
+  d8d1cbdf-a9da-42bc-9a8a-47e0d39cb254: # Text alignment
+    columnSuffix: begxlzzw
+    contentColumnType: string
+    fieldGroup: null
+    handle: textAlignment
+    instructions: null
+    name: 'Text alignment'
+    searchable: false
+    settings:
+      default: center
+      options:
+        __assoc__:
+          -
+            - left
+            - '1'
+          -
+            - center
+            - '1'
+          -
+            - right
+            - '1'
+          -
+            - full
+            - ''
+          -
+            - drop-left
+            - ''
+          -
+            - drop-right
+            - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: rias\positionfieldtype\fields\Position
   d9d00064-7f3b-483f-97af-6b9c688ae73c: # Autoplay speed
     columnSuffix: gkhaqrlk
     contentColumnType: integer(10)
